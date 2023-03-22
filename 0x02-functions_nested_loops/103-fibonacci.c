@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  *main - Prints the sum of even Fibonacci numbers
  *less than 4000000
