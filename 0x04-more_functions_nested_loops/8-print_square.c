@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- *print_square - Print n sqaures according n number of times
+ *print_square - Prints n sqaures according n number of times
  *@size: The number of sqaures/number of times
  *Return: empty
  */
-void print_sqaure(int size)
+
+void print_square(int size)
 {
 	int x, y;
 
