@@ -5,22 +5,22 @@
  *Return: n value
  */
 
-char *leet(char *n)
+char *leet(char *str)
 {
 	int i, j;
-	char s1[] = "aAeEoOtTIL";
-	char s2[] = "4433007711";
 
-	for (i = 0; n[i] != '\a'; i++)
+	char *a = "aAeEoOtTlL";
+	char *b = "4433007711";
+
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; j < 10; i++)
+		for (j = 0; a[j] != '\0'; j++)
 		{
-			if (n[i] == s2[j]}
-			{
-				n[i] = s2[j];
-			}
+			if (str[i] == a[j])
+				str[i] = b[j];
+			
 		}
 
 	}
-	return (n);
+	return (str);
 }
