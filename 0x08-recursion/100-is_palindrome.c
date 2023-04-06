@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -16,7 +17,10 @@ int _strlen_recursion(char *s)
 
 /**
  *is_palindrome - detects if a string is a palindrome
- *@s:string
+ *comparator - compares each character of the string
+ *@s: string
+ *@n1: smallest iterator
+ *@n2: bigges iterator
  *Return: 1 if is a palindrom, 0 if not
  */
 int comparator(char *s, int n1, int n2)
@@ -29,3 +33,4 @@ int comparator(char *s, int n1, int n2)
 	}
 	return (0);
 }
+/*comparator - compares each character of the string*/
