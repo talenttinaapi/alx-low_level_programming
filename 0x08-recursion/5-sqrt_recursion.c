@@ -26,9 +26,11 @@ int _sqrt(int n, int i)
 {
 	int sqrt = 1 * 1;
 
-	if (sqrt > n)
+	if (square > n)
 		return (-1);
-	if (sqrt == n)
+
+	if (square == n)
 		return (i);
-	return (calculate_sqrt(n, i + 1));
+
+	return (_sqrt(n, i + 1));
 }
