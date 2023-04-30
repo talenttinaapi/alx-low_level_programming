@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include "lists.h"
-
 /**
- *add_node_end - adds new node at end of a linked list
- *@head: double pointer to the list_t list
- *@str: string to put in the new node
+ *add_node_end - ...
+ *@head: ...
+ *@str: string
  *
  *Return: address of new elmt, or NULL if fails
  */
@@ -29,8 +28,9 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (*head == NULL)
 	{
 	*head = new;
+
 	return (new);
- 
+
 	}
 
 	while (temp->next)
