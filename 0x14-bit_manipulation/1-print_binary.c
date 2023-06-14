@@ -3,6 +3,7 @@
  *print_binary - ...
  *@n: ...
  */
+
 void print_binary(unsigned long int n)
 {
 	int k, count = 0;
@@ -23,3 +24,4 @@ void print_binary(unsigned long int n)
 	if (!count)
 		_putchar('0');
 }
+
